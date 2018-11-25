@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CB3BD4582DF04941B6D002 /* Pods_438PranavProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264840DEF891B8F04F482F6C /* Pods_438PranavProjectTests.framework */; };
+		2148EAD821AB42CB00FF7BF7 /* theSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148EAD721AB42CA00FF7BF7 /* theSchedule.swift */; };
+		216FE62C219CA5360002E9AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FE62B219CA5360002E9AB /* AppDelegate.swift */; };
+		216FE62E219CA5360002E9AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FE62D219CA5360002E9AB /* ViewController.swift */; };
+		216FE631219CA5360002E9AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216FE62F219CA5360002E9AB /* Main.storyboard */; };
+		216FE633219CA5380002E9AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216FE632219CA5380002E9AB /* Assets.xcassets */; };
+		216FE636219CA5380002E9AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216FE634219CA5380002E9AB /* LaunchScreen.storyboard */; };
+		216FE641219CA5390002E9AB /* _38PranavProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FE640219CA5390002E9AB /* _38PranavProjectTests.swift */; };
+		216FE64C219CA5390002E9AB /* _38PranavProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FE64B219CA5390002E9AB /* _38PranavProjectUITests.swift */; };
+		216FE65A219CA5A10002E9AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 216FE659219CA5A10002E9AB /* GoogleService-Info.plist */; };
+		47BC7ABD25CC31A908A083D5 /* Pods_438PranavProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D031DB45651A024E48B8C36 /* Pods_438PranavProjectUITests.framework */; };
+		F0B4150F79420DC48A41A508 /* Pods_438PranavProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89844CFC7C9839FAD529577D /* Pods_438PranavProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		216FE63D219CA5390002E9AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 216FE620219CA5360002E9AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 216FE627219CA5360002E9AB;
+			remoteInfo = 438PranavProject;
+		};
+		216FE648219CA5390002E9AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 216FE620219CA5360002E9AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 216FE627219CA5360002E9AB;
+			remoteInfo = 438PranavProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D031DB45651A024E48B8C36 /* Pods_438PranavProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_438PranavProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2148EAD721AB42CA00FF7BF7 /* theSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = theSchedule.swift; path = /Users/pranavbuggana/Documents/GitHub/438Pranav/438PranavProject/438PranavProject/theSchedule.swift; sourceTree = "<absolute>"; };
+		216FE628219CA5360002E9AB /* 438PranavProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 438PranavProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		216FE62B219CA5360002E9AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		216FE62D219CA5360002E9AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		216FE630219CA5360002E9AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		216FE632219CA5380002E9AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		216FE635219CA5380002E9AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		216FE637219CA5380002E9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216FE63C219CA5390002E9AB /* 438PranavProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 438PranavProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		216FE640219CA5390002E9AB /* _38PranavProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _38PranavProjectTests.swift; sourceTree = "<group>"; };
+		216FE642219CA5390002E9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216FE647219CA5390002E9AB /* 438PranavProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 438PranavProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		216FE64B219CA5390002E9AB /* _38PranavProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _38PranavProjectUITests.swift; sourceTree = "<group>"; };
+		216FE64D219CA5390002E9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216FE659219CA5A10002E9AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		264840DEF891B8F04F482F6C /* Pods_438PranavProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_438PranavProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2C2DD152DDEB37CE78889F /* Pods-438PranavProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-438PranavProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-438PranavProjectTests/Pods-438PranavProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F7E3DBB950A849AC55A896B /* Pods-438PranavProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-438PranavProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-438PranavProjectUITests/Pods-438PranavProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4459D118EFEE2B4402E51409 /* Pods-438PranavProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-438PranavProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-438PranavProject/Pods-438PranavProject.release.xcconfig"; sourceTree = "<group>"; };
+		5A9E0552CD94BCBE9B99E82D /* Pods-438PranavProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-438PranavProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-438PranavProject/Pods-438PranavProject.debug.xcconfig"; sourceTree = "<group>"; };
+		63FC6130E7EE77B4D944B705 /* Pods-438PranavProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-438PranavProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-438PranavProjectUITests/Pods-438PranavProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E466FB7F3A2B31315FE86C5 /* Pods-438PranavProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-438PranavProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-438PranavProjectTests/Pods-438PranavProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		89844CFC7C9839FAD529577D /* Pods_438PranavProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_438PranavProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		216FE625219CA5360002E9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B4150F79420DC48A41A508 /* Pods_438PranavProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216FE639219CA5390002E9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB3BD4582DF04941B6D002 /* Pods_438PranavProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216FE644219CA5390002E9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BC7ABD25CC31A908A083D5 /* Pods_438PranavProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216FE61F219CA5360002E9AB = {
+			isa = PBXGroup;
+			children = (
+				216FE62A219CA5360002E9AB /* 438PranavProject */,
+				216FE63F219CA5390002E9AB /* 438PranavProjectTests */,
+				216FE64A219CA5390002E9AB /* 438PranavProjectUITests */,
+				216FE629219CA5360002E9AB /* Products */,
+				E3AE3A55E459DC3D1EC9233E /* Pods */,
+				EEB66E7149C64C40EC19BD85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		216FE629219CA5360002E9AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				216FE628219CA5360002E9AB /* 438PranavProject.app */,
+				216FE63C219CA5390002E9AB /* 438PranavProjectTests.xctest */,
+				216FE647219CA5390002E9AB /* 438PranavProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		216FE62A219CA5360002E9AB /* 438PranavProject */ = {
+			isa = PBXGroup;
+			children = (
+				216FE62B219CA5360002E9AB /* AppDelegate.swift */,
+				216FE62D219CA5360002E9AB /* ViewController.swift */,
+				2148EAD721AB42CA00FF7BF7 /* theSchedule.swift */,
+				216FE62F219CA5360002E9AB /* Main.storyboard */,
+				216FE632219CA5380002E9AB /* Assets.xcassets */,
+				216FE634219CA5380002E9AB /* LaunchScreen.storyboard */,
+				216FE637219CA5380002E9AB /* Info.plist */,
+				216FE659219CA5A10002E9AB /* GoogleService-Info.plist */,
+			);
+			path = 438PranavProject;
+			sourceTree = "<group>";
+		};
+		216FE63F219CA5390002E9AB /* 438PranavProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				216FE640219CA5390002E9AB /* _38PranavProjectTests.swift */,
+				216FE642219CA5390002E9AB /* Info.plist */,
+			);
+			path = 438PranavProjectTests;
+			sourceTree = "<group>";
+		};
+		216FE64A219CA5390002E9AB /* 438PranavProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				216FE64B219CA5390002E9AB /* _38PranavProjectUITests.swift */,
+				216FE64D219CA5390002E9AB /* Info.plist */,
+			);
+			path = 438PranavProjectUITests;
+			sourceTree = "<group>";
+		};
+		E3AE3A55E459DC3D1EC9233E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E0552CD94BCBE9B99E82D /* Pods-438PranavProject.debug.xcconfig */,
+				4459D118EFEE2B4402E51409 /* Pods-438PranavProject.release.xcconfig */,
+				2B2C2DD152DDEB37CE78889F /* Pods-438PranavProjectTests.debug.xcconfig */,
+				6E466FB7F3A2B31315FE86C5 /* Pods-438PranavProjectTests.release.xcconfig */,
+				63FC6130E7EE77B4D944B705 /* Pods-438PranavProjectUITests.debug.xcconfig */,
+				2F7E3DBB950A849AC55A896B /* Pods-438PranavProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEB66E7149C64C40EC19BD85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89844CFC7C9839FAD529577D /* Pods_438PranavProject.framework */,
+				264840DEF891B8F04F482F6C /* Pods_438PranavProjectTests.framework */,
+				1D031DB45651A024E48B8C36 /* Pods_438PranavProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		216FE627219CA5360002E9AB /* 438PranavProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216FE650219CA5390002E9AB /* Build configuration list for PBXNativeTarget "438PranavProject" */;
+			buildPhases = (
+				9D1D94506D926B30FF8D41F0 /* [CP] Check Pods Manifest.lock */,
+				216FE624219CA5360002E9AB /* Sources */,
+				216FE625219CA5360002E9AB /* Frameworks */,
+				216FE626219CA5360002E9AB /* Resources */,
+				92D5CC48757C99913254FB81 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 438PranavProject;
+			productName = 438PranavProject;
+			productReference = 216FE628219CA5360002E9AB /* 438PranavProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		216FE63B219CA5390002E9AB /* 438PranavProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216FE653219CA5390002E9AB /* Build configuration list for PBXNativeTarget "438PranavProjectTests" */;
+			buildPhases = (
+				331AE56973311B337E7C26D8 /* [CP] Check Pods Manifest.lock */,
+				216FE638219CA5390002E9AB /* Sources */,
+				216FE639219CA5390002E9AB /* Frameworks */,
+				216FE63A219CA5390002E9AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				216FE63E219CA5390002E9AB /* PBXTargetDependency */,
+			);
+			name = 438PranavProjectTests;
+			productName = 438PranavProjectTests;
+			productReference = 216FE63C219CA5390002E9AB /* 438PranavProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		216FE646219CA5390002E9AB /* 438PranavProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216FE656219CA5390002E9AB /* Build configuration list for PBXNativeTarget "438PranavProjectUITests" */;
+			buildPhases = (
+				3BCB4DC4C999314A32D053B6 /* [CP] Check Pods Manifest.lock */,
+				216FE643219CA5390002E9AB /* Sources */,
+				216FE644219CA5390002E9AB /* Frameworks */,
+				216FE645219CA5390002E9AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				216FE649219CA5390002E9AB /* PBXTargetDependency */,
+			);
+			name = 438PranavProjectUITests;
+			productName = 438PranavProjectUITests;
+			productReference = 216FE647219CA5390002E9AB /* 438PranavProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		216FE620219CA5360002E9AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Pranav Buggana";
+				TargetAttributes = {
+					216FE627219CA5360002E9AB = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					216FE63B219CA5390002E9AB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 216FE627219CA5360002E9AB;
+					};
+					216FE646219CA5390002E9AB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 216FE627219CA5360002E9AB;
+					};
+				};
+			};
+			buildConfigurationList = 216FE623219CA5360002E9AB /* Build configuration list for PBXProject "438PranavProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 216FE61F219CA5360002E9AB;
+			productRefGroup = 216FE629219CA5360002E9AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				216FE627219CA5360002E9AB /* 438PranavProject */,
+				216FE63B219CA5390002E9AB /* 438PranavProjectTests */,
+				216FE646219CA5390002E9AB /* 438PranavProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		216FE626219CA5360002E9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216FE636219CA5380002E9AB /* LaunchScreen.storyboard in Resources */,
+				216FE65A219CA5A10002E9AB /* GoogleService-Info.plist in Resources */,
+				216FE633219CA5380002E9AB /* Assets.xcassets in Resources */,
+				216FE631219CA5360002E9AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216FE63A219CA5390002E9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216FE645219CA5390002E9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		331AE56973311B337E7C26D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-438PranavProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BCB4DC4C999314A32D053B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-438PranavProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D5CC48757C99913254FB81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-438PranavProject/Pods-438PranavProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-438PranavProject/Pods-438PranavProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1D94506D926B30FF8D41F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-438PranavProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		216FE624219CA5360002E9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216FE62E219CA5360002E9AB /* ViewController.swift in Sources */,
+				2148EAD821AB42CB00FF7BF7 /* theSchedule.swift in Sources */,
+				216FE62C219CA5360002E9AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216FE638219CA5390002E9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216FE641219CA5390002E9AB /* _38PranavProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216FE643219CA5390002E9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216FE64C219CA5390002E9AB /* _38PranavProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		216FE63E219CA5390002E9AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 216FE627219CA5360002E9AB /* 438PranavProject */;
+			targetProxy = 216FE63D219CA5390002E9AB /* PBXContainerItemProxy */;
+		};
+		216FE649219CA5390002E9AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 216FE627219CA5360002E9AB /* 438PranavProject */;
+			targetProxy = 216FE648219CA5390002E9AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		216FE62F219CA5360002E9AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216FE630219CA5360002E9AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		216FE634219CA5380002E9AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216FE635219CA5380002E9AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		216FE64E219CA5390002E9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		216FE64F219CA5390002E9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		216FE651219CA5390002E9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9E0552CD94BCBE9B99E82D /* Pods-438PranavProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PPARMGC27;
+				INFOPLIST_FILE = 438PranavProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.-38PranavProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		216FE652219CA5390002E9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4459D118EFEE2B4402E51409 /* Pods-438PranavProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PPARMGC27;
+				INFOPLIST_FILE = 438PranavProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.-38PranavProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		216FE654219CA5390002E9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2C2DD152DDEB37CE78889F /* Pods-438PranavProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PPARMGC27;
+				INFOPLIST_FILE = 438PranavProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.-38PranavProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/438PranavProject.app/438PranavProject";
+			};
+			name = Debug;
+		};
+		216FE655219CA5390002E9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E466FB7F3A2B31315FE86C5 /* Pods-438PranavProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PPARMGC27;
+				INFOPLIST_FILE = 438PranavProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.-38PranavProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/438PranavProject.app/438PranavProject";
+			};
+			name = Release;
+		};
+		216FE657219CA5390002E9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FC6130E7EE77B4D944B705 /* Pods-438PranavProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PPARMGC27;
+				INFOPLIST_FILE = 438PranavProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.-38PranavProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 438PranavProject;
+			};
+			name = Debug;
+		};
+		216FE658219CA5390002E9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7E3DBB950A849AC55A896B /* Pods-438PranavProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PPARMGC27;
+				INFOPLIST_FILE = 438PranavProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.-38PranavProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 438PranavProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		216FE623219CA5360002E9AB /* Build configuration list for PBXProject "438PranavProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216FE64E219CA5390002E9AB /* Debug */,
+				216FE64F219CA5390002E9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216FE650219CA5390002E9AB /* Build configuration list for PBXNativeTarget "438PranavProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216FE651219CA5390002E9AB /* Debug */,
+				216FE652219CA5390002E9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216FE653219CA5390002E9AB /* Build configuration list for PBXNativeTarget "438PranavProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216FE654219CA5390002E9AB /* Debug */,
+				216FE655219CA5390002E9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216FE656219CA5390002E9AB /* Build configuration list for PBXNativeTarget "438PranavProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216FE657219CA5390002E9AB /* Debug */,
+				216FE658219CA5390002E9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 216FE620219CA5360002E9AB /* Project object */;
+}
