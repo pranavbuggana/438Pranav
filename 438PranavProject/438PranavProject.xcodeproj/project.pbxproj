@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04CB3BD4582DF04941B6D002 /* Pods_438PranavProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264840DEF891B8F04F482F6C /* Pods_438PranavProjectTests.framework */; };
-		2148EAD821AB42CB00FF7BF7 /* theSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148EAD721AB42CA00FF7BF7 /* theSchedule.swift */; };
+		213A6D6321AE1DA800116442 /* masterSched.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213A6D6221AE1DA700116442 /* masterSched.swift */; };
+		213A6D6521AE1DFB00116442 /* eventClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213A6D6421AE1DFB00116442 /* eventClass.swift */; };
 		216FE62C219CA5360002E9AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FE62B219CA5360002E9AB /* AppDelegate.swift */; };
 		216FE62E219CA5360002E9AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FE62D219CA5360002E9AB /* ViewController.swift */; };
 		216FE631219CA5360002E9AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216FE62F219CA5360002E9AB /* Main.storyboard */; };
@@ -40,7 +41,8 @@
 
 /* Begin PBXFileReference section */
 		1D031DB45651A024E48B8C36 /* Pods_438PranavProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_438PranavProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2148EAD721AB42CA00FF7BF7 /* theSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = theSchedule.swift; path = /Users/pranavbuggana/Documents/GitHub/438Pranav/438PranavProject/438PranavProject/theSchedule.swift; sourceTree = "<absolute>"; };
+		213A6D6221AE1DA700116442 /* masterSched.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masterSched.swift; sourceTree = "<group>"; };
+		213A6D6421AE1DFB00116442 /* eventClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = eventClass.swift; path = /Users/pranavbuggana/Documents/GitHub/438Pranav/438PranavProject/438PranavProject/eventClass.swift; sourceTree = "<absolute>"; };
 		216FE628219CA5360002E9AB /* 438PranavProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 438PranavProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216FE62B219CA5360002E9AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		216FE62D219CA5360002E9AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +122,8 @@
 			children = (
 				216FE62B219CA5360002E9AB /* AppDelegate.swift */,
 				216FE62D219CA5360002E9AB /* ViewController.swift */,
-				2148EAD721AB42CA00FF7BF7 /* theSchedule.swift */,
+				213A6D6421AE1DFB00116442 /* eventClass.swift */,
+				213A6D6221AE1DA700116442 /* masterSched.swift */,
 				216FE62F219CA5360002E9AB /* Main.storyboard */,
 				216FE632219CA5380002E9AB /* Assets.xcassets */,
 				216FE634219CA5380002E9AB /* LaunchScreen.storyboard */,
@@ -387,8 +390,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				216FE62E219CA5360002E9AB /* ViewController.swift in Sources */,
-				2148EAD821AB42CB00FF7BF7 /* theSchedule.swift in Sources */,
+				213A6D6521AE1DFB00116442 /* eventClass.swift in Sources */,
 				216FE62C219CA5360002E9AB /* AppDelegate.swift in Sources */,
+				213A6D6321AE1DA800116442 /* masterSched.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

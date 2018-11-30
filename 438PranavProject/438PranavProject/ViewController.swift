@@ -11,19 +11,16 @@ import FirebaseDatabase
 
 class ViewController: UIViewController {
     
-    var thePeeps:[schedule]
-    
-    
+    var master: [[String]] = []
+    var masterKey:String = ""
     var ref: DatabaseReference!
     var theChild: DatabaseReference!
-    let theSched:[String:Bool] = ["0":true,"1":false,"2":false,"3":false]
-    var theNameText:String = ""
-    var theDayText:String = ""
     
-    required init?(coder aDecoder: NSCoder) {
-        self.thePeeps = []
-        super.init(coder: aDecoder)
-    }
+    let theMaster:[[String]] = [["Donald,Hillary,Bernie","","LittleMarco"],["","Ocasio",""],["Zodiac,TedCruz","","Ivanka"],["Obama","","Romney"]]
+    
+    var theNameText:String = ""
+
+    let newPerson = event(name: "test", times: [[0,0,1],[0,1,0],[1,1,1],[1,0,0]])
     
     @IBOutlet weak var theDay: UITextField!
     @IBOutlet weak var thePerson: UITextField!
@@ -31,58 +28,26 @@ class ViewController: UIViewController {
     
     @IBAction func overlay(_ sender: Any) {
         
+        let theTimes = newPerson.times
+        let name = newPerson.name
         
-        ref.observe(.value) { snapshot in
-            
-            var allTimes:[[[Int]]] = []
-            var allDays:[[String]] = []
-            
-            for child in snapshot.children {
-                
-                var theSched:schedule =
-                
-                let c = child as! DataSnapshot
-                var theTimes:[[Int]] = []
-                var theDays:[String] = []
-                
-                for child2 in c.children{
-                    let c2 = child2 as! DataSnapshot
-                    let key = c2.key
-                    if key == "name"{
-                        let val = c2.value as! String
-                        print("name: \(val)")
-                    }else{
-                        theDays.append(key)
+        pullJson()
+        
+        for i in 0..<master.count{
+            for j in 0..<master[i].count{
+                if theTimes[i][j] == 0{
+                    if master[i][j] == ""{
+                        master[i][j] = master[i][j] + name
                     }
-                    
-                
-                    var times:[Int] = []
-                    var free:[Int] = []
-                for child3 in c2.children{
-                    
-                    if key != "name"{
-                    let c3 = child3 as! DataSnapshot
-                    let key = Int(c3.key)
-                    let val = c3.value as! Int
-                    times.append(key!)
-                    free.append(val)
-                    
-                        
+                    else{master[i][j] = master[i][j] + "," + name
                     }
-                    
                 }
-                    theTimes.append(times)
-                    theTimes.append(free)
             }
-            
-               allDays.append(theDays)
-            allTimes.append(Array(theTimes.dropLast(2)))
-            }
-            let count = allTimes.count
-            print("allTimes \(allTimes), \(count)")
-            print("\(allDays), \(allTimes)")
-            
         }
+        
+        theChild = ref.child(masterKey)
+        theChild.setValue(master)
+        
     }
     
     
@@ -91,18 +56,59 @@ class ViewController: UIViewController {
         theNameText = thePerson.text!
     }
     
-    @IBAction func dayChanged(_ sender: Any) {
-        theDayText = theDay.text!
-    }
+    
     
     @IBAction func newPerson(_ sender: Any) {
+        
         ref = Database.database().reference()
         theChild =  ref.childByAutoId()
-        theChild.setValue(["name":theNameText])
+        theChild.setValue(theMaster)
+        theChild.child("name").setValue(theNameText)
+        
     }
     
-    @IBAction func newDay(_ sender: Any) {
-        theChild.child(theDayText).setValue(theSched)
+    func pullJson(){
+        
+        
+        ref.observe(.value) { snapshot in
+            
+           
+            for child in snapshot.children {
+                
+                
+                let c = child as! DataSnapshot
+
+                self.masterKey = c.key
+                
+                for child2 in c.children{
+                    let c2 = child2 as! DataSnapshot
+                    let key = c2.key
+                    
+                    
+                    
+                    var avail:[String] = []
+                    for child3 in c2.children{
+                        
+                        if key != "name"{
+                            let c3 = child3 as! DataSnapshot
+                            let val = c3.value as! String
+                            avail.append(val)
+                            
+                            
+                        }
+                        
+                    }
+                    if key == "name"{
+                    }else{
+                    if self.master.count == 0{
+                    self.master += [avail]
+                    }else{
+                        self.master.append(avail)
+                    }
+                    }
+                }
+            }
+        }
     }
     
     
@@ -112,7 +118,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         ref = Database.database().reference()
-        
+        pullJson()
+
     }
 
     override func didReceiveMemoryWarning() {
