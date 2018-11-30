@@ -10,6 +10,6 @@ import UIKit
 
 class timeCell: UICollectionViewCell {
     
-    @IBOutlet weak var text: UILabel!
+    @IBOutlet weak var theLabel: UILabel!
     
 }
