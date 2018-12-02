@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     var theNameText:String = ""
 
-    let newPerson = event(name: "test", times: [[0,0,1],[0,1,0],[1,1,1],[1,0,0]])
+    let newPerson = event(name: "test", times: [[1,1,0],[1,0,1],[0,0,0],[0,1,1]])
     
     @IBOutlet weak var theDay: UITextField!
     @IBOutlet weak var thePerson: UITextField!
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         for i in 0..<master.count{
             for j in 0..<master[i].count{
-                if theTimes[i][j] == 0{
+                if theTimes[i][j] == 1{
                     if master[i][j] == ""{
                         master[i][j] = master[i][j] + name
                     }
